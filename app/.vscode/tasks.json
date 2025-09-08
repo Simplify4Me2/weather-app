@@ -10,13 +10,7 @@
         "owner": "typescript",
         "pattern": "$tsc",
         "background": {
-          "activeOnStart": true,
-          "beginsPattern": {
-            "regexp": "(.*?)"
-          },
-          "endsPattern": {
-            "regexp": "bundle generation complete"
-          }
+          "activeOnStart": true
         }
       }
     },
@@ -28,13 +22,7 @@
         "owner": "typescript",
         "pattern": "$tsc",
         "background": {
-          "activeOnStart": true,
-          "beginsPattern": {
-            "regexp": "(.*?)"
-          },
-          "endsPattern": {
-            "regexp": "bundle generation complete"
-          }
+          "activeOnStart": true
         }
       }
     }
