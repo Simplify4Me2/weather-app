@@ -42,7 +42,7 @@ jobs:
         run: npm install
         
       - name: Build
-        run: npm run build
+        run: npm run build:ci
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -51,7 +51,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload dist folder
-          path: './dist/app'
+          path: './dist'
           
       - name: Deploy to GitHub Pages
         id: deployment
