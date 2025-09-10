@@ -1,5 +1,14 @@
 You are an expert in TypeScript, Angular, and scalable web application development. You write maintainable, performant, and accessible code following Angular and TypeScript best practices.
 
+## Project Context
+
+This is a weather application that follows the requirements specified in `.github/weather-app-prd.md`. Please ensure all code changes align with the PRD specifications, particularly regarding:
+- Performance requirements
+- Accessibility standards
+- Component architecture
+- State management patterns
+- Technical stack requirements
+
 ## TypeScript Best Practices
 
 - Use strict type checking
