@@ -42,7 +42,7 @@ jobs:
         run: npm install
         
       - name: Build
-        run: npm run build:ci
+        run: npx ng build --base-href=/weather-app/
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -50,8 +50,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload dist folder
-          path: './dist'
+          # Upload Angular build output
+          path: './dist/app/browser'
           
       - name: Deploy to GitHub Pages
         id: deployment
