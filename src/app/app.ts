@@ -16,7 +16,7 @@ import { HourlyForecastComponent } from './components/hourly-forecast/hourly-for
     HourlyForecastComponent,
   ],
   template: `
-    <div class="min-h-screen bg-blue-900">
+    <div class="min-h-screen bg-neutral-900">
       <div class="max-w-2xl mx-auto">
         <app-search-bar />
         <app-current-weather />
