@@ -6,9 +6,10 @@ import { Component } from '@angular/core';
     template: `
     <header class="flex flex-row p-4">
             <img src="assets/images/logo.svg" alt="Weather App Logo" class="h-7 mt-1">
-            <button class="flex flex-row ml-auto p-0 rounded-lg bg-neutral-800">
-                <img src="assets/images/icon-units.svg" alt="Units" class="w-5 h-5">
-                <span class="text-white">Units</span>
+            <button class="flex flex-row items-center ml-auto px-2 rounded-lg bg-neutral-800">
+                <img src="assets/images/icon-units.svg" alt="Units">
+                <span class="text-white text-sm mx-1">Units</span>
+                <img src="assets/images/icon-dropdown.svg" alt="Dropdown">
             </button>
         <!-- <div class="relative inline-block text-left">
             <div>
