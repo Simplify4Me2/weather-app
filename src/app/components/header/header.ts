@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
             <img src="assets/images/logo.svg" alt="Weather App Logo" class="h-7 mt-1">
             <button class="flex flex-row items-center ml-auto px-2 rounded-lg bg-neutral-800">
                 <img src="assets/images/icon-units.svg" alt="Units">
-                <span class="text-white text-sm mx-1">Units</span>
+                <span class="text-white text-sm mx-1 font-dm">Units</span>
                 <img src="assets/images/icon-dropdown.svg" alt="Dropdown">
             </button>
         <!-- <div class="relative inline-block text-left">
