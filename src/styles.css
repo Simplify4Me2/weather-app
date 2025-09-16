@@ -26,6 +26,9 @@
     --font-bricolage: 'Bricolage Grotesque', system-ui, sans-serif;
     --font-dm: 'DM Sans', system-ui, sans-serif;
 
+    --text-5xl: 3.25rem; /* 52px */
+    --text-5xl--line-height: 1.2; /* 120% */
+
     --color-neutral-0: hsl(0, 0%, 100%);
     --color-neutral-200: hsl(250, 6%, 84%);
     --color-neutral-300: hsl(240, 6%, 70%);
