@@ -4,6 +4,7 @@ import { CurrentWeatherComponent } from './components/current-weather/current-we
 import { WeatherDetailsComponent } from './components/weather-details/weather-details';
 import { DailyForecastComponent } from './components/daily-forecast/daily-forecast';
 import { HourlyForecastComponent } from './components/hourly-forecast/hourly-forecast';
+import { HeaderComponent } from './components/header/header';
 
 @Component({
   selector: 'app-root',
@@ -14,18 +15,20 @@ import { HourlyForecastComponent } from './components/hourly-forecast/hourly-for
     WeatherDetailsComponent,
     DailyForecastComponent,
     HourlyForecastComponent,
+    HeaderComponent
   ],
-  template: `
-    <div class="min-h-screen bg-neutral-900">
-      <div class="max-w-2xl mx-auto">
-        <app-search-bar />
-        <app-current-weather />
-        <app-weather-details />
-        <app-daily-forecast />
-        <app-hourly-forecast />
-      </div>
-    </div>
-  `,
+  // template: `
+  //   <div class="min-h-screen bg-neutral-900">
+  //     <div class="max-w-2xl mx-auto">
+  //       <app-search-bar />
+  //       <app-current-weather />
+  //       <app-weather-details />
+  //       <app-daily-forecast />
+  //       <app-hourly-forecast />
+  //     </div>
+  //   </div>
+  // `,
+  templateUrl: './app-component.html',
   styles: [`
     :host {
       display: block;
