@@ -6,16 +6,16 @@ import { DatePipe } from '@angular/common';
   standalone: true,
   imports: [DatePipe],
   template: `
-    <div class="p-4 text-white">
-      <h1 class="text-3xl font-bold mb-2">Berlin, Germany</h1>
-      <p class="text-lg text-gray-300 mb-4">{{ today | date:'EEEE, MMM d, y' }}</p>
-      <div class="flex items-end gap-4">
-        <div class="text-7xl font-light">20°</div>
+    <div class="flex flex-col items-center m-4 p-10 h-72 rounded-2xl text-white bg-[url('assets/images/bg-today-small.svg')]">
+      <h1 class="text-3xl font-bold font-dm mb-2">Berlin, Germany</h1>
+      <p class="text-lg font-dm text-gray-300 mb-4">{{ today | date:'EEEE, MMM d, y' }}</p>
+      <div class="flex items-center">
         <img
-          src="assets/images/icon-sunny.webp"
-          alt="Sunny"
-          class="w-16 h-16"
+        src="assets/images/icon-sunny.webp"
+        alt="Sunny"
+        class="w-32 h-32"
         />
+        <div class="text-8xl font-bricolage font-bold italic">20°</div>
       </div>
     </div>
   `,
@@ -26,5 +26,5 @@ import { DatePipe } from '@angular/common';
   `]
 })
 export class CurrentWeatherComponent {
-  today = new Date();
+  today = new Date(2025, 7, 5);
 }
